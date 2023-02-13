@@ -14,7 +14,7 @@ const Product = ({ item }) => {
           <ShoppingCartOutlinedIcon />
         </Icon>
         <Icon>
-          <Link to="/product"><SearchOutlinedIcon /></Link>
+          <Link to="/product" style={{color: "black"}}><SearchOutlinedIcon /></Link>
         </Icon>
         <Icon>
           <FavoriteBorderOutlinedIcon />
